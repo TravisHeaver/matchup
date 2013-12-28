@@ -1,5 +1,5 @@
 //
-//  MUFirstViewController.h
+//  MULoginViewController.h
 //  MatchedUp
 //
 //  Created by Travis Heaver on 12/23/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MUFirstViewController : UIViewController
+@interface MULoginViewController : UIViewController
 
 @end

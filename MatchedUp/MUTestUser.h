@@ -10,4 +10,7 @@
 
 @interface MUTestUser : NSObject
 
++(void)saveTestUserToParse;
++(void)saveTestUserToParse2;
+
 @end

@@ -13,4 +13,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+#import <Parse/Parse.h>
+#import "MUconstants.h"
+
+#import <Mixpanel.h>
+#define MIXPANEL_TOKEN @"6e380167d716f9853d40d282ef5c2704"
 #endif

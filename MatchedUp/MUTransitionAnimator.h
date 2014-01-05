@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MUTransitionAnimator : NSObject
+@interface MUTransitionAnimator : NSObject <UIViewControllerAnimatedTransitioning>
+
+@property (nonatomic, assign) BOOL presenting;
 
 @end
